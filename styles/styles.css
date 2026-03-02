@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+:root {
+    --dark: #0D0107;
+    --purple: #100418; 
+    --mauve: #5A4252; 
+    --navy: #0E213A; 
+    --light: #A79494;
+}
+
+/* @ RESETS */
+
+* {
+    box-sizing: border-box; 
+    padding: 0px;
+    margin: 0px;
+    color: var(--light);
+
+    text-decoration: none;
+
+    /* font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; */
+
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: url("../img/background.png");
+    background-color: var(--dark);
+}
+
+body {
+    min-height: 100dvh;
+    width: 150ch;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    padding-top: 35px;
+}
+
+/* @ SPECIFICS */
+
+
+
+.photo {
+    width: 500px;
+}
+
+.cls-1 {
+    fill: #fff;
+    fill-rule: evenodd;
+    width: 300px;
+}
+
+.h1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: start;
+
+    width: 100%;
+    text-align: start;
+    /* padding: 15px; */
+    margin-bottom: 30px;
+
+
+
+    /* border: solid blue 2px; */
+}
+
+h1 {
+    /* font-family: "Almendra SC", serif;
+    font-weight: 400;
+    font-style: normal; */
+
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* @ FLEX CLASSES */
+
+.flex--row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    /* border: solid aqua 2px; */
+    /* width: 100%; */
+
+
+}
+
+.flex--col {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+/* @ COMPONTENTS */
+
+.header {
+    height: 150px;
+
+    border: solid 2px var(--light);
+}
+
+.nav {
+    display: flex;
+
+    /* border: solid 2px red;+ */
+}
+
+
+.nav__ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    padding: 10px 15px 10px;
+
+
+
+}
+
+
+.nav__li > i {
+    margin-right: .5ch;
+}
+
+.nav__li {
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+
+    /* font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal; */
+
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
+    /* border: solid 5px red; */
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+
+    margin: 50px 0 50px 0;
+
+}
+
+main h1 {
+    font-size: 50px;
+}
+
+main p {
+    font-size: 20px;
+}
+
+.intro {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-around;
+    align-items: center;
+    gap: 50px;
+
+    width: 95%;
+
+    /* border: solid blue ; */
+
+}
+
+.intro__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+
+}
+
+/* .intro__header img {
+    background-color: var(--light);
+    width: 200px;
+    height: 200px;
+} */
+
+.intro__txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border: solid red 2px; */
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    /* margin-bottom: 20px; */
+    /* padding: 15px; */
+    /* gap: 50px; */
+
+    /* border: solid 2px var(--light); */
+
+}
+
+footer h2 {
+    font-size: 50px;
+}
+
+footer p, footer li {
+    font-size: 20px;
+}
+
+.footer__group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 15px;
+
+    /* border: solid green 2px; */
+}
+
+.footer__inner--lr {
+    font-size: 100px;
+
+}
+
+.footer__inner--middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.footer__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.projects {
+    width: 50%;
+    gap: 25px;
+
+    /* border: solid blue 2px; */
+}
+
+.main--project {
+    /* border: solid 2px var(--light); */
+    padding: 30px;
+}
+
+.graphic {
+    width: 100%;
+    /* padding: 15px; */
+
+    /* border: solid purple 2px; */
+    
+}
+
+
+
+
+.subtitle {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+
+    /* border: solid green 2px; */
+}
+
+.main--writing {
+    width: 100%;
+
+    /* border: solid aqua 2px; */
+}
+
+.project__header {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+
+    /* border: teal solid 2px; */
+}
+
+.button {
+    width: 9%;
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+
+    border: solid 1px var(--mauve);
+    border-radius: 5px;
+
+    /* border: solid brown 2px; */
+}
+
+.button p {
+    color: var(--mauve);
+}
+
+.flex--gap50 {
+    gap: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  /* background-color: dodgerblue; */
+  padding: 5px;
+  gap: 20px;
+
+  /* border: solid 5px orange; */
+}
+
+.grid__item {
+  /* background-color: #f1f1f1; */
+  border: 1px solid var(--mauve);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  text-align: start;
+}
+
+
+
+.grid__item a {
+    text-decoration: underline;
+}
+
+
+
+.thumbnail {
+    width: 500px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.envelope {
+    width: 400px;
+}
+
+.film__projects, .writing__projects {
+    /* width: 360px;
+    height: 270px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* border: solid 2px red; */
+}
+
+.grid--center {
+    align-items: center;
+}
+
+.writing__projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grid--center {
+    align-items: center;
+}
+
+.writing--item {
+    width: 400px;
+}
+
+.grid__writing {
+    display: grid;
+    grid-template-columns: 40% 60%;
+     /* background-color: dodgerblue; */
+    padding: 5px;
+    gap: 20px;
+
+}
+
+.grid__item--writing {
+
+    /* border: 1px solid var(--mauve); */
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    text-align: start;
+    /* padding: 15px; */
+
+    /* width: 450px; */
+
+}    
+
+.grid__item--writing p {
+    /* border: solid honeydew 2px; */
+
+    padding: 10px;
+}    
+
+.grid__item--alt {
+    border: 1px solid var(--mauve);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    text-align: start;
+
+    width: 40%;
+}
+
+.photography__item {
+
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    text-align:center;
+    
+}
+
+.grid__photos {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    gap: 20px;
+
+  /* border: solid 5px orange; */
+
+}
+
+.grid__photos--item {
+    /* background-color: #f1f1f1; */
+    /* border: 1px solid var(--mauve); */
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    text-align: start;
+}
+
+.photo {
+    width: 500px;
+}
+
+.footer {
+    /* border: solid 2px blue; */
+}
+
+.footer-img {
+    z-index: 0;
+}
+
+.block__aj {
+    width: 298px;
+    height: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 1426px;
+    left: 765px;
+
+    /* border: solid 2px red; */
+
+}
+
+.block__insta {
+
+    width: 298px;
+    height: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 1226px;
+    left: 900px;
+
+    /* border: solid 2px red; */
+
+}

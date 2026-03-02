@@ -1,0 +1,38 @@
+<div class="footer__frount">
+            <div class="footer__group">
+
+                <div class="footer__inner--lr">
+                    
+                </div>
+                <div class="footer__inner--middle">
+                    <h2>K<i class="fa-solid fa-star"></i>T.mov</h2>
+                    <div class="footer__contact">
+                        <ul class="contact__inner">
+                            <a href=""><li class="contact__info">Contact ?</li></a>
+                            <a href=""><li class="contact__info">Contact ?</li></a>
+                        </ul>
+                        <ul class="contact__inner">
+                            <a href=""><li class="contact__info">Insta</li></a>
+                            <a href=""><li class="contact__info">Email</li></a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__inner--lr">
+                    
+                </div>
+
+            </div>
+            <div class="footer__group">
+
+                <div class="footer__inner--left">
+                    <p>Created by:</p>
+                    <p><a href="">aj</a></p>
+                </div>
+                <div class="footer__inner--right">
+                    <p>Thank you for visiting!</p>
+                    <p>- K<i class="fa-solid fa-star"></i>T</p>
+                </div>
+
+            </div>
+        </div>
