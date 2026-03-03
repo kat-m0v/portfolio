@@ -136,10 +136,18 @@ h1 {
 
 /* @ COMPONTENTS */
 
-.header {
-    height: 150px;
+header {
 
-    border: solid 2px var(--light);
+    height: 280px;
+
+    /* border: solid 2px var(--light); */
+    background-color: black;
+
+
+}
+
+.banner {
+    width: 90%;
 }
 
 .nav {
@@ -518,12 +526,12 @@ footer p, footer li {
 }
 
 .block__aj {
-    width: 298px;
+    width: 45%;
     height: 50px;
     z-index: 1;
     position: absolute;
-    top: 1426px;
-    left: 765px;
+    top: 1486px;
+    left: 600px;
 
     /* border: solid 2px red; */
 
@@ -531,12 +539,12 @@ footer p, footer li {
 
 .block__insta {
 
-    width: 298px;
+    width: 40%;
     height: 50px;
     z-index: 1;
     position: absolute;
-    top: 1226px;
-    left: 900px;
+    top: 1286px;
+    left: 600px;
 
     /* border: solid 2px red; */
 
