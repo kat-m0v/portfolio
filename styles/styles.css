@@ -549,3 +549,16 @@ footer p, footer li {
     /* border: solid 2px red; */
 
 }
+
+.about__bottomP {
+
+    padding: 25px 0px 25px 0px;
+
+    /* border: solid 5px green; */
+}
+
+.about p {
+    font-size: 25px;
+    line-height: 1.5;
+
+}
