@@ -70,7 +70,9 @@ p {
 
 /* @ SPECIFICS */
 
-
+.intro__txt p {
+    font-size: 22px;
+}
 
 .photo {
     width: 500px;
