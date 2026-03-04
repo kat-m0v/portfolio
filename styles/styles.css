@@ -381,7 +381,7 @@ footer p, footer li {
 
 .grid {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 500px 500px 500px;
   /* background-color: dodgerblue; */
   padding: 5px;
   gap: 20px;
